@@ -1,0 +1,22 @@
+.schedule {
+  .editor {
+    .form-fields {
+      //
+    }
+    .hidden {
+      display: none !important;
+    }
+    #autocomplete {
+      position: absolute;
+      display: block;
+      margin-top: 20px;
+      border: 1px solid black;
+      width: 175px;
+      z-index: 2;
+      background-color: white;
+      .item {
+        cursor: pointer;
+      }
+    }
+  }
+}

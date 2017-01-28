@@ -1,0 +1,19 @@
+.schedule {
+  display: block !important;
+  width: 400px;
+  .date {
+    font-size: 20px;
+  }
+  .create {
+    margin-left: 200px;
+  }
+  #meetings {
+    display: block !important;
+    div {
+      display: block !important;
+    }
+    .buttons {
+      margin-left: 230px;
+    }
+  }
+}

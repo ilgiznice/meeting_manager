@@ -1,0 +1,38 @@
+.calendar {
+  display: block !important;
+  .month-picker {
+    font-size: 30px;
+    .prev, .next {
+      padding: 3px;
+      cursor: pointer;
+    }
+  }
+  table {
+    td {
+      padding: 10px;
+      cursor: pointer;
+    }
+    .current {
+      background-color: yellow;
+      border-radius: 50%;
+    }
+    .selected {
+      background-color: gray;
+      border-radius: 50%;
+    }
+    .past {
+      color: lightgray;
+    }
+    .future {
+      color: lightgray;
+    }
+    .has-meetings:after {
+      content: '';
+      position: absolute;
+      margin-top: 20px;
+      margin-left: -10px;
+      border-radius: 50%;
+      border: 3px solid green;
+    }
+  }
+}
